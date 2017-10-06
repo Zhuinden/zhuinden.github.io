@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  width: 98vw;
+  height: 100vh;
+}
+
+body {
+  width: 98vw;
+  height: 100vh
+}
+
+.left-banner {
+  background: #81D4FA;
+  height: 100vh;
+}
+
+.right-banner {
+  background: #FFFFFF;
+  height: 100vh;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+}
+
+/* unvisited link */
+a:link {
+  color: #00695C;
+}
+
+/* visited link */
+a:visited {
+  color: #00695C;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00897B;
+}
+
+/* selected link */
+a:active {
+  color: #00897B;
+}
+
+.white-text {
+  color: #FFFFFF !important;
+}
